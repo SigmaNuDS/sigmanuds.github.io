@@ -1,0 +1,16 @@
+// CSS styling for the header/menu
+
+.header {
+    // Arrange items in a row
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: red;
+
+    // Styling for title
+    .header-title {
+        background: blue;
+    }
+
+    // Styling for menu items
+}

@@ -1,0 +1,4 @@
+{# Macro for including CSS #}
+{% macro styling() %}
+<link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+{% endmacro styling %}
