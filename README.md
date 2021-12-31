@@ -30,25 +30,26 @@ Editing: This page is managed through HTML
 
 Developing: Just some custom content
 
-### Newsletter List
+### Alumni Section
 
-Editing:
-`static/newsletters/`: Add/delete the newsletter PDFs to this folder. The link URL will be the file name.
+
+
+#### Newsletter Page
+
+
+Editing: `static/newsletters/`: Add/delete the newsletter PDFs to this folder. The link URL will be the file name.
 
 Developing: Works by getting every file in the `static/newsletters/` folder and generates a list of links to the file name.
 
-### Alumni Contact Form
+#### Contact Form
 
-Editing:
-`content/alumni-contact.md`: No metadata. Utilize the google form macro to embed a contact form.
+#### Donation Page
+
+Editing: `content/alumni-contact.md`: No metadata. Utilize the google form macro to embed a contact form.
 
 Developing: Nothing special, displays content of markdown file.
 
-### Rush Page
-
-Editing:
-
-### About Page
+### Recruitment Page
 
 Editing:
 
@@ -56,7 +57,16 @@ Editing:
     1. [instagram-link]: 
     2. [bridge-link]: 
 
-`content/about/person1.md`: Each person with a headshot is their own special markdown file. Metadata:
+### About/History Page
+
+Editing: A markdown page
+
+
+### Roster Page
+
+
+Editing:
+`content/about/` folder: Each person with a headshot is their own special markdown file. Metadata:
     1. [headshot]: path to the headshot photo in `static/headshots/` folder
     2. [title]: Position title
     3. [name]: Person's name
