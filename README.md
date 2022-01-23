@@ -16,9 +16,9 @@ Anyone can develop the site by downloading Zola (the only dependency). CSS is do
 
 Relevant docs:
 
-Zola: https://www.getzola.org/documentation/getting-started/overview/
-Tera HTML Templating: https://tera.netlify.app/docs/
-SASS: https://sass-lang.com/documentation
+* Zola: https://www.getzola.org/documentation/getting-started/overview/
+* Tera HTML Templating: https://tera.netlify.app/docs/
+* SASS: https://sass-lang.com/documentation
 
 Note: As I (jordan) am a nix user, the zola dependency is managed through a nix flake. The github action builds using the nix flake lock file. So if you are using nix to develop, you are guaranteed that what you see locally is what will be built and served through github pages. If not using nix, your zola version may be incorrect and the site could fail to build/build something different. If you have no idea what a nix flake is and you are taking charge of this repo, feel free to update the github action/dependency management to your liking.
 
