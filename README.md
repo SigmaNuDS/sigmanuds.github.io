@@ -22,6 +22,9 @@ Relevant docs:
 
 Note: As I (jordan) am a nix user, the zola dependency is managed through a nix flake. The github action builds using the nix flake lock file. So if you are using nix to develop, you are guaranteed that what you see locally is what will be built and served through github pages. If not using nix, your zola version may be incorrect and the site could fail to build/build something different. If you have no idea what a nix flake is and you are taking charge of this repo, feel free to update the github action/dependency management to your liking.
 
+## Repository Name
+
+The repository name must be `sigmanuds.github.io` so the github page deploys as `sigmanuds.github.io` rather than `sigmanuds.github.io/<repo>`
 
 ## Pages
 
