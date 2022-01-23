@@ -15,3 +15,15 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+logo_text = "Sigma Nu"
+favicon = "favicon.ico"
+
+main_menu_show = 3
+main_menu_more = "More"
+
+main_menu_items = [
+    { url = "/about/", name="About SN"},
+    { url = "/our-chapter/", name="Our Chapter"},
+    { url = "/rush/", name="Rush" },
+    { url = "/alumni/", name="Alumni" },
+]

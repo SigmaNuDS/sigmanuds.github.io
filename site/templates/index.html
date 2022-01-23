@@ -1,32 +1,14 @@
-{%- import "macros/head.html" as head -%}
+{%- extends "base.html" -%}
 
-<!DOCTYPE html>
-<html lang="en">
+{%- block title -%}
+<title>{{ section.title }}</title>
+{%- endblock title -%}
 
-<head>
-    {% block title -%}
-    <title>{{ config.title }}</title>
-    {%- endblock title %}
-
-    {% block css -%}
-    {{ head::styling(config=config)}}
-    {%- endblock css %}
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8"/>
-</head>
-
-<body class="">
-    <div class = "container">
-        <div class= "header">
-            <div class="header-title">
-                Sigma Nu
-            </div>
-            <div class="header-menu">
-                Test
-            </div>
-        </div>
+{%- block main -%}
+<article class="post">
+    <div class="post-content">
+        {{ section.content | safe }}
     </div>
-</body>
+</article>
 
-</html>
+{%- endblock main -%}
