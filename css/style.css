@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Set a default text color for the body */
+}
+
+
+header {
+    color: #FFFFFF;
+    position: relative;
+    height: 60vh;
+    background-image: url(/home/user/projects/sigmanuds.github.io/images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* You can adjust this to crop the image as desired */
+}
+
+nav {
+    background-color: #333333;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #444444;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    max-width: 30px;
+    margin: 0 auto;
+}
+
+.cmu-title {
+    font-size: 40px;
+    font-family: roboto-mono;
+}
+
+.signu-title {
+    font-size: 80px;
+    font-family: roboto-mono;
+}
+
+.chapter-title {
+    font-size: 40px;
+    font-family: roboto-mono;
+}
+
+.cmu-title,
+.signu-title,
+.chapter-title {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
