@@ -1,12 +1,12 @@
 .title {
-    background-image: url(../images/cole.jpg);
+    background-image: url(../images/cole2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFFFFF;
     height: 48vw;
     margin-top: -0.8vw;
-    margin-left: -3vw;
+    margin-left: -4vw;
     padding-top: 1px;
     position: relative;
     width: 102.3vw;
@@ -63,7 +63,7 @@
 
 
 .creed {
-    background-image: url(../images/cole.jpg);
+    background-image: url(../images/cole2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@
 
 
 .recruitment {
-    background-image: url(../images/cole.jpg);
+    background-image: url(../images/cole2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,11 +174,11 @@
 
 .contact {
     background-color: #FFFFFF;
-    padding-bottom: 8vw;
-    padding-left: 11vw;
+    margin-left: -3vw;
+    padding-bottom: 10vw;
+    padding-left: 13vw;
     padding-right: 9.3vw;
     padding-top: 1px;
-    margin-left: -1vw;
     width: 80vw;
 }
 
