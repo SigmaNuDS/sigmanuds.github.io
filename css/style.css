@@ -1,5 +1,5 @@
 .title {
-    background-image: url(../images/cole2.jpg);
+    background-image: url(../images/main.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,6 +53,7 @@
 }
 
 .who-title {
+    color: #FFD700;
     font-size: 8vw;
 }
 
@@ -64,7 +65,7 @@
 
 
 .creed {
-    background-image: url(../images/cole2.jpg);
+    background-image: url(../images/creed.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,28 +81,6 @@
     color: #FFFFFF;
     font-size: 8vw;
     margin-left: 13vw;
-}
-
-.love,
-.honor,
-.truth {
-    font-size: 6vw;
-    margin-top: -2.1vw;
-}
-
-.love {
-    color: #000000;
-    margin-left: 20vw;
-}
-
-.honor {
-    color: #FFFFFF;
-    margin-left: 50vw;
-}
-
-.truth {
-    color: #FFD700;
-    margin-left: 80vw;
 }
 
 
@@ -128,7 +107,7 @@
 
 
 .recruitment {
-    background-image: url(../images/cole2.jpg);
+    background-image: url(../images/recruitment2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
