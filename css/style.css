@@ -1,3 +1,8 @@
+mark {
+  background-color: black;
+  color: white;
+}
+
 .title {
     background-image: url(../images/main.jpg);
     background-position: center center;
@@ -86,7 +91,7 @@
 
 
 .brotherhood {
-    background-color: #FFFFFF;
+    background-color: #FFD700;
     margin-left: -3vw;
     padding-bottom: 10vw;
     padding-left: 13vw;
@@ -153,7 +158,7 @@
 
 
 .contact {
-    background-color: #FFFFFF;
+    background-color: #FFD700;
     margin-bottom: -3vw;
     margin-left: -3vw;
     padding-bottom: 10vw;
