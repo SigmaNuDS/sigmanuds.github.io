@@ -4,84 +4,8 @@ Sigma Nu CMU public website.
 
 ## Updating the site
 
-The site is automatically updated when the `main` branch has been updated. This is as simple as calling `git push`, or manually editing/uploading/deleting a file on Github's website. If developing or working on new content, create a new branch so the site doesn't break in the meantime. When you are finished, merge into main branch.
-
-## Content Creating
-
-All content can be created by following the instructions for each page below (no coding or developing skills needed). All editable pages are in markdown format. See here for info: . I also wrote a few handy macros for embedding useful items (see markdown macro section).
-
-## Developing
-
-Anyone can develop the site by downloading Zola (the only dependency). CSS is done with SASS which just provides some better templating features. HTML/CSS is commented throughout.
-
-Relevant docs:
-
-* Zola: https://www.getzola.org/documentation/getting-started/overview/
-* Tera HTML Templating: https://tera.netlify.app/docs/
-* SASS: https://sass-lang.com/documentation
-
-Note: As I (jordan) am a nix user, the zola dependency is managed through a nix flake. The github action builds using the nix flake lock file. So if you are using nix to develop, you are guaranteed that what you see locally is what will be built and served through github pages. If not using nix, your zola version may be incorrect and the site could fail to build/build something different. If you have no idea what a nix flake is and you are taking charge of this repo, feel free to update the github action/dependency management to your liking.
+It's a static website, there is one html file and one css file, figure it out.
 
 ## Repository Name
 
 The repository name must be `sigmanuds.github.io` so the github page deploys as `sigmanuds.github.io` rather than `sigmanuds.github.io/<repo>`
-
-## Pages
-
-### Homepage
-
-Editing: This page is managed through HTML
-
-Developing: Just some custom content
-
-### Alumni Section
-
-
-
-#### Newsletter Page
-
-
-Editing: `static/newsletters/`: Add/delete the newsletter PDFs to this folder. The link URL will be the file name.
-
-Developing: Works by getting every file in the `static/newsletters/` folder and generates a list of links to the file name.
-
-#### Contact Form
-
-#### Donation Page
-
-Editing: `content/alumni-contact.md`: No metadata. Utilize the google form macro to embed a contact form.
-
-Developing: Nothing special, displays content of markdown file.
-
-### Recruitment Page
-
-Editing:
-
-`content/about/index.md`: This page is used to generate the about description of fraternity. Metadata:
-    1. [instagram-link]: 
-    2. [bridge-link]: 
-
-### About/History Page
-
-Editing: A markdown page
-
-
-### Roster Page
-
-
-Editing:
-`content/about/` folder: Each person with a headshot is their own special markdown file. Metadata:
-    1. [headshot]: path to the headshot photo in `static/headshots/` folder
-    2. [title]: Position title
-    3. [name]: Person's name
-
-
-Developing:
-
-The `index.md` file is used to get the description of the fraternity and social links. Then we get every person's page and use the metadata to generate the grid of headshots with associated position titles.
-
-## Markdown Macros
-
-Markdown macro for embedding google forms (so anyone can quickly embed a form on a page)
-
-
