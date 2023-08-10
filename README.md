@@ -4,7 +4,7 @@ Sigma Nu CMU public website.
 
 ## Updating the site
 
-It's a static website, there is one html file and one css file.
+It's a static website, there is one html file and one css file, figure it out.
 
 ## Repository Name
 
