@@ -63,6 +63,7 @@ mark {
 }
 
 .who-div {
+    color: #FFD700;
     font-size: 1.5vw;
     margin-left: 5vw;
 }
@@ -111,8 +112,8 @@ mark {
 
 
 
-.recruitment {
-    background-image: url(../images/recruitment2.jpg);
+.buggy {
+    background-image: url(../images/buggy.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,15 +126,73 @@ mark {
     width: 92.3vw;
 }
 
-.recruitment-title {
+.buggy-title {
     color: #FFFFFF;
     font-size: 8vw;
     margin-left: 13vw;
 }
 
-.recruitment-div {
+.buggy-div {
     font-size: 1.5vw;
     margin-left: 18vw;
+}
+
+
+
+.service {
+    background-image: url(../images/service.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 48vw;
+    margin-left: -3vw;
+    padding-top: 1px;
+    padding-right: 10vw;
+    position: relative;
+    width: 92.3vw;
+}
+
+.service-title {
+    color: #FFD700;
+    font-size: 8vw;
+    margin-left: 13vw;
+}
+
+.service-div {
+    color: #FFD700;
+    font-size: 1.5vw;
+    margin-left: 18vw;
+}
+
+
+
+.brotherhood-title {
+    font-size: 8vw;
+}
+
+.brotherhood-div {
+    font-size: 1.5vw;
+    padding-left: 5vw;
+}
+
+.recruitment {
+    background-color: #FFD700;
+    margin-left: -3vw;
+    padding-bottom: 10vw;
+    padding-left: 13vw;
+    padding-right: 9.3vw;
+    padding-top: 1px;
+    width: 80vw;
+}
+
+.recruitment-title {
+    font-size: 8vw;
+}
+
+.recruitment-div {
+    font-size: 1.5vw;
+    padding-left: 5vw;
 }
 
 
@@ -176,6 +235,7 @@ mark {
     font-size: 1.5vw;
     margin-left: 5vw;
 }
+
 
 
 body {
